@@ -124,9 +124,14 @@ def number_to_short_month_name(month)
 end
 
 def volume_of_cube(length)
-  volume = (length * length * length)
-  return volume
+  cubes_volume = (length * length * length)
+  return cubes_volume
 end
+
+# def volume_of_sphere(radius)
+# volume = (1.3333) * 3.14159265 * (radius * radius * radius)
+#   return volume
+# end
 
 
 
