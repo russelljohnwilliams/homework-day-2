@@ -128,10 +128,10 @@ def volume_of_cube(length)
   return cubes_volume
 end
 
-# def volume_of_sphere(radius)
-# volume = (1.3333) * 3.14159265 * (radius * radius * radius)
-#   return volume
-# end
+def volume_of_sphere(radius)
+spheres_volume = 1.3333 * 3.14159265 * (radius * radius * radius)
+  return spheres_volume.to_i
+end
 
 
 
