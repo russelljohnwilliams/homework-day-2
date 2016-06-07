@@ -19,6 +19,12 @@ def divide(first_number, second_number)
 end
 
 def length_of_string(length)
-  string = "A string of length 21".length
+  string = ("A string of length 21".length)
   return string
 end
+
+def join_string(string1, string2)
+  string = (string1 + string2)
+  return string
+end
+
