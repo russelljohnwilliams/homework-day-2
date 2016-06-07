@@ -18,8 +18,8 @@ def divide(first_number, second_number)
   return(first_number / second_number)
 end
 
-def length_of_string(length)
-  string = ("A string of length 21".length)
+def length_of_string(string_of_words)
+  string = (string_of_words.length)
   return string
 end
 
@@ -32,11 +32,11 @@ def add_string_as_number(first_number, second_number)
   return first_number.to_i + second_number.to_i
 end
 
-def number_to_full_name(month)
+def number_to_full_month_name(month)
 
-  case months
+  case month
   when 1
-    return "Janurary"
+    return "January"
   when 2
     return "February"  
   when 3
@@ -59,5 +59,6 @@ def number_to_full_name(month)
     return "November"
   when 12
     return "December"
-
+   
   end
+end
